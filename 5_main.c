@@ -16,7 +16,7 @@ else if(op=='/')
 {
     if(num2==0)
     {
-        printf("除数不能为零\n");
+        printf("错误：除数不能为 0\n");
     }
     else
     {
@@ -38,7 +38,7 @@ else if(op=='*')
 }
 else
 {
-    printf("运算符不合法\n");
+    printf("错误：不支持的运算符\n");
 }
    return 0; 
 }
