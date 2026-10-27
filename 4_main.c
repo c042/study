@@ -5,11 +5,10 @@
 #include<stdlib.h>
 int main(){
 float score;
-printf("请输入分数：");
 scanf("%f",&score);
 if(score>100||score<0)
 {
-    printf("无效输入\n");
+    printf("输入无效\n");
 }
 
  else if(score>=90)

@@ -6,35 +6,34 @@
 int main(){
 float num1,num2,result;
 char op;
-printf("请依次输入第一个数.运算符.第二个数:");
 scanf("%f %c %f",&num1,&op,&num2);
 if(op=='+')
 {
     result=num1+num2;
-    printf("%f",result);
+    printf("%.2f",result);
 }
 else if(op=='/')
 {
     if(num2==0)
     {
-        printf("分母不能为零\n");
+        printf("除数不能为零\n");
     }
     else
     {
     result=num1/num2;
-    printf("%f\n",result);
+    printf("%.2f\n",result);
     }
 }
 else if(op=='-')
 {
     result=num1-num2;
-    printf("%f\n",result);
+    printf("%.2f\n",result);
 
 }
 else if(op=='*')
 {
     result=num1*num2;
-    printf("%f\n",result);
+    printf("%.2f\n",result);
 
 }
 else
